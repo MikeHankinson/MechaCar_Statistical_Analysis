@@ -2,10 +2,10 @@
 ----------------------------------------------------------------------------------
 
 ## Overview of the Statistical Analysis 
-Citi Bike is a privately owned public bicycle sharing system serving the New York City boroughs of the Bronx, Brooklyn, Manhattan, and Queens, as well as Jersey City, New Jersey. The intent of this analysis is to study the NYC ride sharing service to determine the feasibility of a similar program in Des Moines.  
+Perform retrospective analysis on historical data, analytical verification of current automotive specifications and study desgin of future auto testing.  
 
 ## Data Sources
-Data for analysis was obtained from the Citi Bike website. Slight data manipulation was performed using [python code](NYC_CitiBike_Challenge.ipynb) in Juptyer Notebook.  
+Data for analysis was provided in two csv files ([MPG](MechaCar_mpg.csv) and [Suspension](Suspension_Coil.csv)).  
 
 
 ## Linear Regression to Predict MPG
@@ -28,6 +28,15 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 
 ## T-Tests on Suspension Coils
+
+
+
+
+## Study Design: MechaCar vs Competition
+
+
+
+
 
 
 
