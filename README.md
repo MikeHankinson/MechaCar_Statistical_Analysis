@@ -4,43 +4,46 @@
 ## Overview of the Statistical Analysis 
 Perform retrospective analysis on historical data, analytical verification of current automotive specifications and study desgin of future auto testing.  
 
-## Data Sources
+## Data Sources and Coding File
 Data for analysis was provided in two csv files ([MPG](MechaCar_mpg.csv) and [Suspension](Suspension_Coil.csv)).  
 
+Statistical analysis was performed in R and is [attached](MechaCarChallenge.R).  
 
 ## Linear Regression to Predict MPG
-
-
+<br>
+<br>
+![Fig_1](MechaCar_Statistical_Analysis/Screenshots/Linear_Regression_MPG.PNG)
+<br>
+<br>
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 
-
-
 ## Summary Statistics on Suspension Coils
-
-
-
+<br>
+<br>
+![Fig_1](Pictures/6Map.PNG)
+<br>
+<br>
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 
 
 
 ## T-Tests on Suspension Coils
-
-
-
+<br>
+<br>
+![Fig_1](Pictures/6Map.PNG)
+<br>
+<br>
 
 ## Study Design: MechaCar vs Competition
-
-
-
-
-
-
-
-
+<br>
+<br>
+![Fig_1](Pictures/6Map.PNG)
+<br>
+<br>
 
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
@@ -49,69 +52,4 @@ briefly summarize your interpretation and findings for the t-test results. Inclu
 
 
 
-![Fig_1](Pictures/6Map.PNG)
-<br>
-<br>
-Although not the only bicycle sharing business in the area, as shown above, Citi Bike is ubiquitous within the New York City boroughs.  Citi Bike began operations in the spring of 2013 with over 300 bike stations.  The service has experienced tremendous growth over its first 8 years now operating with over 1,000 stations, 17,000 bicycles and a daily ridership of nearly 50,000 people.  
-<br>
-<br>
-<br>
-![Fig_2](Pictures/7PieGender.PNG)
-<br>
-<br>
-In August of 2019, Citi Bike facilitated over 2.3 million rides. Surveys of nearly 2/3 of the riders indicate a ridership of both men and women.  
-<br>
-<br>
-<br>
-![Fig_3](Pictures/1CheckoutTimeAllRiders.PNG)
-<br>
-<br>
-Citi Bike offers a number of rider plans including annual, weekday, daily and single-ride passes. Note that the day-pass allows for 24-hour rental.  The graph above shows rentals can last from less than an hour to the 24-hour limit, with most typical rides lasting 4-6 hours.     
-<br>
-<br>
-<br>
-![Fig_4](Pictures/2CheckoutTimeGender.PNG)
-<br>
-<br>
-The above graph breaks out checkout time by gender and produces the same rental time trend across gender.  However, the number of bikes allocated to males is 3:1 at peak trip duration of 4-6 hours.  
-<br>
-<br>
-<br>
-![Fig_5](Pictures/3TripsByWeekdayPerHour.PNG)
-<br>
-<br>
-The heat map shows during weekdays, rentals are concentrated during rush hours (6:00am - 9:00am and 4:00pm-8:00pm) as customers travel to and from work.  
 
-Weekend customers tend to checkout bikes throughout the day, concentrated fairly evenly between 9:00am - 8:00pm.
-<br>
-<br>
-<br>
-![Fig_6](Pictures/4TripsByWeekdayPerGender.PNG)
-<br>
-<br>
-Rental time trends continue across genders for both weekday and weekend riders.
-<br>
-<br>
-<br>
-![Fig_](Pictures/5TripsByGenderByWeekday.PNG)
-<br>
-<br>
-The volume of Annual Membership riders is significantly greater than that for Day Pass riders weeklong.  
-
-The volume of both male and female Subscribers stays fairly consistent throughout the week.  
-
-Although male riders are predominant, female riders are common as well.   
-<br>
-<br>
-## Summary
-This analysis presents the following in visualization form
-
-* Length of time that bikes are checked out for all riders and genders
-* Number of bike trips for all riders and genders for each hour of each day of the week
-* Number of bike trips for each type of user and gender for each day of the week.
-
-Further analysis is needed to glean success factors from the data.  Once identified, use them to evaluate potential in Des Moines.  
-
-Additional information needed includes
-* Asset Utilization:  What percentage of bikes are rented at any given time? Determine how to balance inventory across stations.  
-* Customer Age: Complete and age analysis similar to the one completed for gender.  Along with demographic data, this will enable marketing efforts.  
