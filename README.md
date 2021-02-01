@@ -11,16 +11,13 @@ Statistical analysis was performed in R and is [attached](MechaCarChallenge.R).
 
 ## Linear Regression to Predict MPG
 <br>
-<br>
 
 ![Fig_1](MechaCar_Statistical_Analysis/Screenshots/Linear_Regression_MPG.PNG)
-
 <br>
 <br>
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
 
 ## Summary Statistics on Suspension Coils
 <br>
