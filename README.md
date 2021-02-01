@@ -36,22 +36,23 @@ Both Lot 1 and 2 meet design specification.  However, Lot 3 is well outside susp
 
 ![Fig_4](MechaCar_Statistical_Analysis/Screenshots/ttest_PSI_allLots.PNG)
 
-Using sample_n(), pulled a random sample of 50 data points (150 full population) to determine if there is a statistical difference between the sample mean and that of the population.  Using a one sample t-test, we obtained a p-value = 0.8831.  Assuming a significance level was the common 0.05%, the p-value is above the significance level.  Therefore, there is not sufficient evidence to reject the null hypothesis and there is no statistical difference between the observed sample mean and the presumed population mean.  
+A random subset sample of 50 data points (150 full population) were obtained (Using sample_n function) to determine if there is a statistical difference between the sample mean PSI and that of the population across all manufacturing lots.  Using a one sample t-test, we obtained a p-value = 0.8831.  Assuming a significance level is the common 0.05%, the p-value (0.8831) is above the significance level.  Therefore, there is not sufficient evidence to reject the null hypothesis and there is no statistical difference between the observed sample mean and the presumed population mean.  
 
+The same analysis was performed (below) for each individual lot as well.  
 
 ![Fig_5](MechaCar_Statistical_Analysis/Screenshots/ttest_PSI_Lot1.PNG)
 
-text
+Lot 1:  Assuming a significance level is the common 0.05%, the p-value (0.0004297)  is below the significance level.  Therefore, there is sufficient evidence to reject the null hypothesis. There is a statistical difference between the observed sample mean and the presumed population mean of Lot 1.  
 
 
 ![Fig_6](MechaCar_Statistical_Analysis/Screenshots/ttest_PSI_Lot2.PNG)
 
-text
+Lot 2:  Assuming a significance level is the common 0.05%, the p-value (0.08261) is above the significance level.  Therefore, there is not sufficient evidence to reject the null hypothesis.  There is no statistical difference between the observed sample mean and the presumed population mean in Lot 2.  
 
 
 ![Fig_7](MechaCar_Statistical_Analysis/Screenshots/ttest_PSI_Lot3.PNG)
 
-text
+Lot 3:  Assuming a significance level is the common 0.05%, the p-value (0.8442) is above the significance level.  Therefore, there is not sufficient evidence to reject the null hypothesis.  There is no statistical difference between the observed sample mean and the presumed population mean in Lot 3.  
 
 ## Study Design: MechaCar vs Competition
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
