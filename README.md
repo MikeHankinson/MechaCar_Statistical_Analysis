@@ -36,7 +36,8 @@ Both Lot 1 and 2 meet design specification.  However, Lot 3 is well outside susp
 
 ![Fig_4](MechaCar_Statistical_Analysis/Screenshots/ttest_PSI_allLots.PNG)
 
-text
+Using sample_n(), pulled a random sample of 50 data points (150 full population) to determine if there is a statistical difference between the sample mean and that of the population.  Using a one sample t-test, we obtained a p-value = 0.8831.  Assuming a significance level was the common 0.05%, the p-value is above the significance level.  Therefore, there is not sufficient evidence to reject the null hypothesis and there is no statistical difference between the observed sample mean and the presumed population mean.  
+
 
 ![Fig_5](MechaCar_Statistical_Analysis/Screenshots/ttest_PSI_Lot1.PNG)
 
