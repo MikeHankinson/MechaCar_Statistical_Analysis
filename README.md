@@ -10,9 +10,9 @@ Data for analysis was provided in two csv files ([MPG](MechaCar_mpg.csv) and [Su
 Statistical analysis was performed in R and is [attached](MechaCarChallenge.R).  
 
 ## Linear Regression to Predict MPG
-<br>
 
 ![Fig_1](MechaCar_Statistical_Analysis/Screenshots/Linear_Regression_MPG.PNG)
+
 <br>
 <br>
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
