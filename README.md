@@ -13,9 +13,13 @@ Statistical analysis was performed in R and is [attached](MechaCarChallenge.R).
 
 ![Fig_1](MechaCar_Statistical_Analysis/Screenshots/Linear_Regression_MPG.PNG)
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Performed a multiple linear regression to determine the effect of the following 5 measured varialbles on fuel efficiency (measured in mpg): vehicle length, vehicle weight, spoiler angle, ground clearance and drive train (AWD or not).  
+
+The best-fit model is described by the following:  MPG = 6.267*vehicle_length + 0.001245*vehicle_weight +0.06887*spoiler_angle 3.546*ground_clearance - 3.411*AWD - 104.
+
+Analyzing the model's coefficients (inputs), we find that vehicle length and ground clearance have a statistically significant impact on fuel economy (MPG).  Therefore, with this knowledge, we know the slope of the model is not zero because the individual contributors to the model's slope (6.267*vehicle_length and 3.546*ground_clearance) are significant and non-zero.  
+
+Although, the analysis with 5 predictors does predict fuel economy fairly well (r-squared = 0.7149), it appears the model is not complete.  It is likely that other unmeasured predictors (variables) contribute to fuel economy as well.  
 
 ## Summary Statistics on Suspension Coils
 
