@@ -7,11 +7,37 @@ Citi Bike is a privately owned public bicycle sharing system serving the New Yor
 ## Data Sources
 Data for analysis was obtained from the Citi Bike website. Slight data manipulation was performed using [python code](NYC_CitiBike_Challenge.ipynb) in Juptyer Notebook.  
 
-## Data Sources
-[Online Tableau Story](https://public.tableau.com/profile/mike.hankinson#!/vizhome/Module14_Challenge_Deliverable2/StoryCitiBike?publish=yes)
+
+## Linear Regression to Predict MPG
 
 
-## Results
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Is the slope of the linear model considered to be zero? Why or why not?
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+
+
+
+## Summary Statistics on Suspension Coils
+
+
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+
+
+## T-Tests on Suspension Coils
+
+
+
+
+
+briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+
+
+
 
 
 ![Fig_1](Pictures/6Map.PNG)
